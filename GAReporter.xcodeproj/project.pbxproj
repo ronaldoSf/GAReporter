@@ -8,12 +8,34 @@
 
 /* Begin PBXBuildFile section */
 		4072095721368FA20020ADC2 /* GAReporter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072095521368FA20020ADC2 /* GAReporter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4072096721369AD70020ADC2 /* GAIEcommercePromotion.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072095D21369AD60020ADC2 /* GAIEcommercePromotion.h */; };
+		4072096821369AD70020ADC2 /* GAIFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072095E21369AD60020ADC2 /* GAIFields.h */; };
+		4072096921369AD70020ADC2 /* GAITracker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072095F21369AD60020ADC2 /* GAITracker.h */; };
+		4072096A21369AD70020ADC2 /* GAIEcommerceProduct.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096021369AD60020ADC2 /* GAIEcommerceProduct.h */; };
+		4072096B21369AD70020ADC2 /* GAIDictionaryBuilder.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096121369AD70020ADC2 /* GAIDictionaryBuilder.h */; };
+		4072096C21369AD70020ADC2 /* GAI.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096221369AD70020ADC2 /* GAI.h */; };
+		4072096D21369AD70020ADC2 /* GAILogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096321369AD70020ADC2 /* GAILogger.h */; };
+		4072096E21369AD70020ADC2 /* GAITrackedViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096421369AD70020ADC2 /* GAITrackedViewController.h */; };
+		4072096F21369AD70020ADC2 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096521369AD70020ADC2 /* GAIEcommerceFields.h */; };
+		4072097021369AD70020ADC2 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096621369AD70020ADC2 /* GAIEcommerceProductAction.h */; };
+		4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4072095221368FA20020ADC2 /* GAReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4072095521368FA20020ADC2 /* GAReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAReporter.h; sourceTree = "<group>"; };
 		4072095621368FA20020ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4072095D21369AD60020ADC2 /* GAIEcommercePromotion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommercePromotion.h; sourceTree = "<group>"; };
+		4072095E21369AD60020ADC2 /* GAIFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIFields.h; sourceTree = "<group>"; };
+		4072095F21369AD60020ADC2 /* GAITracker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITracker.h; sourceTree = "<group>"; };
+		4072096021369AD60020ADC2 /* GAIEcommerceProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProduct.h; sourceTree = "<group>"; };
+		4072096121369AD70020ADC2 /* GAIDictionaryBuilder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIDictionaryBuilder.h; sourceTree = "<group>"; };
+		4072096221369AD70020ADC2 /* GAI.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAI.h; sourceTree = "<group>"; };
+		4072096321369AD70020ADC2 /* GAILogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAILogger.h; sourceTree = "<group>"; };
+		4072096421369AD70020ADC2 /* GAITrackedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAITrackedViewController.h; sourceTree = "<group>"; };
+		4072096521369AD70020ADC2 /* GAIEcommerceFields.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceFields.h; sourceTree = "<group>"; };
+		4072096621369AD70020ADC2 /* GAIEcommerceProductAction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GAIEcommerceProductAction.h; sourceTree = "<group>"; };
+		4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGoogleAnalytics.a; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -21,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -46,10 +69,29 @@
 		4072095421368FA20020ADC2 /* GAReporter */ = {
 			isa = PBXGroup;
 			children = (
+				4072097121369AFF0020ADC2 /* Libraries */,
 				4072095521368FA20020ADC2 /* GAReporter.h */,
+				4072096221369AD70020ADC2 /* GAI.h */,
+				4072096121369AD70020ADC2 /* GAIDictionaryBuilder.h */,
+				4072096521369AD70020ADC2 /* GAIEcommerceFields.h */,
+				4072096021369AD60020ADC2 /* GAIEcommerceProduct.h */,
+				4072096621369AD70020ADC2 /* GAIEcommerceProductAction.h */,
+				4072095D21369AD60020ADC2 /* GAIEcommercePromotion.h */,
+				4072095E21369AD60020ADC2 /* GAIFields.h */,
+				4072096321369AD70020ADC2 /* GAILogger.h */,
+				4072096421369AD70020ADC2 /* GAITrackedViewController.h */,
+				4072095F21369AD60020ADC2 /* GAITracker.h */,
 				4072095621368FA20020ADC2 /* Info.plist */,
 			);
 			path = GAReporter;
+			sourceTree = "<group>";
+		};
+		4072097121369AFF0020ADC2 /* Libraries */ = {
+			isa = PBXGroup;
+			children = (
+				4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */,
+			);
+			path = Libraries;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -59,7 +101,17 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4072096B21369AD70020ADC2 /* GAIDictionaryBuilder.h in Headers */,
 				4072095721368FA20020ADC2 /* GAReporter.h in Headers */,
+				4072096D21369AD70020ADC2 /* GAILogger.h in Headers */,
+				4072096821369AD70020ADC2 /* GAIFields.h in Headers */,
+				4072096C21369AD70020ADC2 /* GAI.h in Headers */,
+				4072096E21369AD70020ADC2 /* GAITrackedViewController.h in Headers */,
+				4072097021369AD70020ADC2 /* GAIEcommerceProductAction.h in Headers */,
+				4072096F21369AD70020ADC2 /* GAIEcommerceFields.h in Headers */,
+				4072096721369AD70020ADC2 /* GAIEcommercePromotion.h in Headers */,
+				4072096A21369AD70020ADC2 /* GAIEcommerceProduct.h in Headers */,
+				4072096921369AD70020ADC2 /* GAITracker.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,6 +325,10 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GAReporter/Libraries",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.GAReporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -297,6 +353,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/GAReporter/Libraries",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.GAReporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
