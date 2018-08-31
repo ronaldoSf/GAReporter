@@ -24,6 +24,8 @@
 		4072097B213788BE0020ADC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097A213788BD0020ADC2 /* CoreData.framework */; };
 		4072097D213788C80020ADC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097C213788C80020ADC2 /* SystemConfiguration.framework */; };
 		4072099421378B8D0020ADC2 /* GAReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072099321378B8D0020ADC2 /* GAReporter.swift */; };
+		4072099F2138D3230020ADC2 /* libAdIdAccessLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */; };
+		407209A12138D3390020ADC2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407209A02138D3380020ADC2 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +49,8 @@
 		4072097A213788BD0020ADC2 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 		4072097C213788C80020ADC2 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		4072099321378B8D0020ADC2 /* GAReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAReporter.swift; sourceTree = "<group>"; };
+		4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccessLibrary.a; sourceTree = "<group>"; };
+		407209A02138D3380020ADC2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +58,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				407209A12138D3390020ADC2 /* AdSupport.framework in Frameworks */,
 				4072097D213788C80020ADC2 /* SystemConfiguration.framework in Frameworks */,
 				4072097B213788BE0020ADC2 /* CoreData.framework in Frameworks */,
 				40720979213788B20020ADC2 /* libsqlite3.tbd in Frameworks */,
 				40720977213788A20020ADC2 /* libz.tbd in Frameworks */,
 				4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */,
+				4072099F2138D3230020ADC2 /* libAdIdAccessLibrary.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -107,6 +113,7 @@
 		4072097121369AFF0020ADC2 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */,
 				4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */,
 			);
 			path = Libraries;
@@ -115,6 +122,7 @@
 		40720975213788A10020ADC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				407209A02138D3380020ADC2 /* AdSupport.framework */,
 				4072097C213788C80020ADC2 /* SystemConfiguration.framework */,
 				4072097A213788BD0020ADC2 /* CoreData.framework */,
 				40720978213788B20020ADC2 /* libsqlite3.tbd */,
@@ -365,6 +373,7 @@
 					"$(PROJECT_DIR)/GAReporter",
 					"$(PROJECT_DIR)/GAReporter/Libraries",
 				);
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = GAReporter/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.GAReporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -402,6 +411,7 @@
 					"$(PROJECT_DIR)/GAReporter",
 					"$(PROJECT_DIR)/GAReporter/Libraries",
 				);
+				MACH_O_TYPE = mh_dylib;
 				MODULEMAP_FILE = GAReporter/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.GAReporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";

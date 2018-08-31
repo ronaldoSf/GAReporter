@@ -18,6 +18,7 @@ open class GAReporter {
         if verbose {
             gai.logger.logLevel = .verbose
         }
+        gai.defaultTracker.allowIDFACollection = true
     }
     
     open class func sendScreenView(_ screen: String) {

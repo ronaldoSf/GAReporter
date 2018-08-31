@@ -24,8 +24,8 @@ s.source = { :git => "https://github.com/ji3g4kami/GAReporter.git",
              :tag => "#{s.version}" }
 
 # 7 - Frameworks, libraries and dependencies
-s.vendored_library = "GAReporter/Libraries/libGoogleAnalytics.a"
-s.frameworks = ['CoreData', 'SystemConfiguration']
+s.vendored_libraries = "GAReporter/Libraries/*.a"
+s.frameworks = ['CoreData', 'SystemConfiguration', 'AdSupport']
 s.libraries = ['z', 'sqlite3']
 
 # 8
