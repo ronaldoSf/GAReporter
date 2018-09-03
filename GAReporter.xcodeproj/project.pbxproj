@@ -19,11 +19,8 @@
 		4072096F21369AD70020ADC2 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096521369AD70020ADC2 /* GAIEcommerceFields.h */; };
 		4072097021369AD70020ADC2 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096621369AD70020ADC2 /* GAIEcommerceProductAction.h */; };
 		4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */; };
-		4072097B213788BE0020ADC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097A213788BD0020ADC2 /* CoreData.framework */; };
-		4072097D213788C80020ADC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097C213788C80020ADC2 /* SystemConfiguration.framework */; };
 		4072099421378B8D0020ADC2 /* GAReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072099321378B8D0020ADC2 /* GAReporter.swift */; };
 		4072099F2138D3230020ADC2 /* libAdIdAccessLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */; };
-		407209A12138D3390020ADC2 /* AdSupport.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 407209A02138D3380020ADC2 /* AdSupport.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,9 +55,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				407209A12138D3390020ADC2 /* AdSupport.framework in Frameworks */,
-				4072097D213788C80020ADC2 /* SystemConfiguration.framework in Frameworks */,
-				4072097B213788BE0020ADC2 /* CoreData.framework in Frameworks */,
 				4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */,
 				4072099F2138D3230020ADC2 /* libAdIdAccessLibrary.a in Frameworks */,
 			);
