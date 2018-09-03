@@ -19,8 +19,6 @@
 		4072096F21369AD70020ADC2 /* GAIEcommerceFields.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096521369AD70020ADC2 /* GAIEcommerceFields.h */; };
 		4072097021369AD70020ADC2 /* GAIEcommerceProductAction.h in Headers */ = {isa = PBXBuildFile; fileRef = 4072096621369AD70020ADC2 /* GAIEcommerceProductAction.h */; };
 		4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */; };
-		40720977213788A20020ADC2 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 40720976213788A20020ADC2 /* libz.tbd */; };
-		40720979213788B20020ADC2 /* libsqlite3.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 40720978213788B20020ADC2 /* libsqlite3.tbd */; };
 		4072097B213788BE0020ADC2 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097A213788BD0020ADC2 /* CoreData.framework */; };
 		4072097D213788C80020ADC2 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097C213788C80020ADC2 /* SystemConfiguration.framework */; };
 		4072099421378B8D0020ADC2 /* GAReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072099321378B8D0020ADC2 /* GAReporter.swift */; };
@@ -29,6 +27,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		40701BFE213D0A4F00290189 /* libz.1.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.1.dylib; path = ../../../usr/lib/libz.1.dylib; sourceTree = "<group>"; };
+		40701C00213D0B1200290189 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = ../../../usr/lib/libsqlite3.dylib; sourceTree = "<group>"; };
 		4072095221368FA20020ADC2 /* GAReporter.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = GAReporter.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4072095521368FA20020ADC2 /* GAReporter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GAReporter.h; sourceTree = "<group>"; };
 		4072095621368FA20020ADC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -61,8 +61,6 @@
 				407209A12138D3390020ADC2 /* AdSupport.framework in Frameworks */,
 				4072097D213788C80020ADC2 /* SystemConfiguration.framework in Frameworks */,
 				4072097B213788BE0020ADC2 /* CoreData.framework in Frameworks */,
-				40720979213788B20020ADC2 /* libsqlite3.tbd in Frameworks */,
-				40720977213788A20020ADC2 /* libz.tbd in Frameworks */,
 				4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */,
 				4072099F2138D3230020ADC2 /* libAdIdAccessLibrary.a in Frameworks */,
 			);
@@ -122,6 +120,8 @@
 		40720975213788A10020ADC2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				40701C00213D0B1200290189 /* libsqlite3.dylib */,
+				40701BFE213D0A4F00290189 /* libz.1.dylib */,
 				407209A02138D3380020ADC2 /* AdSupport.framework */,
 				4072097C213788C80020ADC2 /* SystemConfiguration.framework */,
 				4072097A213788BD0020ADC2 /* CoreData.framework */,
