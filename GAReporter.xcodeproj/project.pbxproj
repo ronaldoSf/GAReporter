@@ -373,7 +373,7 @@
 					"$(PROJECT_DIR)/GAReporter",
 					"$(PROJECT_DIR)/GAReporter/Libraries",
 				);
-				MACH_O_TYPE = mh_dylib;
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = GAReporter/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.GAReporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -411,7 +411,7 @@
 					"$(PROJECT_DIR)/GAReporter",
 					"$(PROJECT_DIR)/GAReporter/Libraries",
 				);
-				MACH_O_TYPE = mh_dylib;
+				MACH_O_TYPE = staticlib;
 				MODULEMAP_FILE = GAReporter/module.modulemap;
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengli.GAReporter;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
