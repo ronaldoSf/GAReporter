@@ -41,4 +41,6 @@ s.module_map = 'GAReporter/module.modulemap'
 s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GAReporter', 'DEFINES_MODULE' => 'YES' }
 
 s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GAReporter' }
+
+s.static_framework = true
 end
