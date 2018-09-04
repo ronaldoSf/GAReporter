@@ -9,7 +9,8 @@ open class GAReporter {
     
     open class func configure(_ trackID: String, verbose: Bool) {
         guard let gai = GAI.sharedInstance() else {
-            assert(false, "Google Analytics not configured correctly")
+            print("Google Analytics not configured correctly")
+            return
         }
         gai.defaultTracker = gai.tracker(withTrackingId: trackID)
         // Optional: automatically report uncaught exceptions.
