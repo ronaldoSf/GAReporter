@@ -29,7 +29,7 @@ s.frameworks = ['CoreData', 'SystemConfiguration', 'AdSupport']
 s.libraries = ['z', 'sqlite3']
 
 # 8
-s.source_files = "GAReporter/*"
+s.source_files = "GAReporter/**/*"
 
 # 10
 s.swift_version = "4.1"
@@ -38,9 +38,9 @@ s.preserve_path = 'GAReporter/module.modulemap'
 
 s.module_map = 'GAReporter/module.modulemap'
 
-s.pod_target_xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GAReporter', 'DEFINES_MODULE' => 'YES' }
+s.pod_target_xcconfig = { 'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GAReporter/**/*.swift', 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GAReporter', 'DEFINES_MODULE' => 'YES' }
 
-s.xcconfig = { 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GAReporter' }
+s.xcconfig = {  'SWIFT_INCLUDE_PATHS' => '$(PODS_ROOT)/GAReporter/**/*.swift', 'HEADER_SEARCH_PATHS' => '$(PODS_ROOT)/GAReporter' }
 
 s.static_framework = true
 end
