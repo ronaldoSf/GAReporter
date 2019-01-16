@@ -21,6 +21,7 @@
 		4072097321369B000020ADC2 /* libGoogleAnalytics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072097221369AFF0020ADC2 /* libGoogleAnalytics.a */; };
 		4072099421378B8D0020ADC2 /* GAReporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4072099321378B8D0020ADC2 /* GAReporter.swift */; };
 		4072099F2138D3230020ADC2 /* libAdIdAccessLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */; };
+		D185EA5721EF943100391107 /* MainFile.swift in Sources */ = {isa = PBXBuildFile; fileRef = D185EA5621EF943100391107 /* MainFile.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -48,6 +49,7 @@
 		4072099321378B8D0020ADC2 /* GAReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAReporter.swift; sourceTree = "<group>"; };
 		4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccessLibrary.a; sourceTree = "<group>"; };
 		407209A02138D3380020ADC2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D185EA5621EF943100391107 /* MainFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +85,7 @@
 		4072095421368FA20020ADC2 /* GAReporter */ = {
 			isa = PBXGroup;
 			children = (
+				D185EA5521EF940C00391107 /* Other */,
 				4072097121369AFF0020ADC2 /* Libraries */,
 				4072097421369D240020ADC2 /* module.modulemap */,
 				4072095521368FA20020ADC2 /* GAReporter.h */,
@@ -123,6 +126,14 @@
 				40720976213788A20020ADC2 /* libz.tbd */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D185EA5521EF940C00391107 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D185EA5621EF943100391107 /* MainFile.swift */,
+			);
+			path = Other;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -214,6 +225,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D185EA5721EF943100391107 /* MainFile.swift in Sources */,
 				4072099421378B8D0020ADC2 /* GAReporter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
