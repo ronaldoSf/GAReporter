@@ -29,7 +29,7 @@ s.frameworks = ['CoreData', 'SystemConfiguration', 'AdSupport']
 s.libraries = ['z', 'sqlite3']
 
 # 8
-s.source_files = "GAReporter/*"
+s.source_files = "GAReporter/**/*.swift", "GAReporter/*"
 
 # 10
 s.swift_version = "4.1"
