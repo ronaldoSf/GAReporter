@@ -1,14 +1,7 @@
 
 module GAReporter {
-    header "GAI.h"
-    header "GAIDictionaryBuilder.h"
-    header "GAIEcommerceFields.h"
-    header "GAIEcommerceProduct.h"
-    header "GAIEcommerceProductAction.h"
-    header "GAIEcommercePromotion.h"
-    header "GAIFields.h"
-    header "GAILogger.h"
-    header "GAITrackedViewController.h"
-    header "GAITracker.h"
+    umbrella header "GAReporter-umbrella.h"
+
     export *
+    module * { export * }
 }

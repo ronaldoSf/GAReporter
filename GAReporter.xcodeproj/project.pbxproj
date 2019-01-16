@@ -49,6 +49,7 @@
 		4072099321378B8D0020ADC2 /* GAReporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GAReporter.swift; sourceTree = "<group>"; };
 		4072099E2138D3230020ADC2 /* libAdIdAccessLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAdIdAccessLibrary.a; sourceTree = "<group>"; };
 		407209A02138D3380020ADC2 /* AdSupport.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AdSupport.framework; path = System/Library/Frameworks/AdSupport.framework; sourceTree = SDKROOT; };
+		D14CBA2121EFAC89007597C2 /* GAReporter-umbrella.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GAReporter-umbrella.h"; sourceTree = "<group>"; };
 		D185EA5621EF943100391107 /* MainFile.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFile.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -101,6 +102,7 @@
 				4072095F21369AD60020ADC2 /* GAITracker.h */,
 				4072095621368FA20020ADC2 /* Info.plist */,
 				4072099321378B8D0020ADC2 /* GAReporter.swift */,
+				D14CBA2121EFAC89007597C2 /* GAReporter-umbrella.h */,
 			);
 			path = GAReporter;
 			sourceTree = "<group>";
